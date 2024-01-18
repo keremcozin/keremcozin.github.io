@@ -15,11 +15,18 @@
   "author": "Kerem Caner Ozin <ozin.keremcaner@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.21.2",
     "react-scripts": "^5.0.1",
     "roboto-fontface": "^0.10.0",
-    "typeface-roboto": "^1.1.13"
+    "styled-components": "^6.1.8",
+    "typeface-roboto": "^1.1.13",
+    "web-vitals": "^3.5.1"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",

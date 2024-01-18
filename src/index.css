@@ -1,7 +1,8 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    color: white;
+    margin: 1;
+    padding: 1;
+    background-color: #0F1035;
+    color: #FFFBF5;
     font-family: 'Roboto', sans-serif;
+    text-align: 'justify';
 }
