@@ -2,8 +2,8 @@
 
 import React from 'react';
 
-const AboutHeader = "This section is about introductions.";
-const AboutContent = "And so on...";
+const aboutHeader = "This section is about introductions.";
+const aboutContent = "And so on...";
 const About = () => {
     return (
         <div
@@ -15,9 +15,9 @@ const About = () => {
                 height: '100vh'
             }}
         >
-            <h1> {AboutHeader} </h1>
+            <h1> {aboutHeader} </h1>
             <br />
-            <p> {AboutContent} </p>
+            <p> {aboutContent} </p>
         </div>
     );
 };

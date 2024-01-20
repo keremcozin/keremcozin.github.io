@@ -2,8 +2,8 @@
 
 import React from "react";
 
-const BlogsHeader = "There will be some stuff about books, videos, online courses and et cetera.";
-const BlogsContent = "Like this";
+const blogsHeader = "There will be some stuff about books, videos, online courses and et cetera.";
+const blogsContent = "Like this";
 const Blogs = () => {
     return (
         <div
@@ -15,9 +15,9 @@ const Blogs = () => {
                 height: '100vh'
             }}
         >
-            <h1> {BlogsHeader} </h1>
+            <h1> {blogsHeader} </h1>
             <br />
-            <p> {BlogsContent} <a href="https://www.roadtoreact.com/" target="_blank">Road to React</a></p>
+            <p> {blogsContent} <a href="https://www.roadtoreact.com/" target="_blank">Road to React</a></p>
         </div>
     );
 };

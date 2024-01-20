@@ -2,8 +2,8 @@
 
 import React from "react";
 
-const ProjectsHeader = 'There will be links to my GitHub repositories here.';
-const ProjectsContent = 'Check my GitHub repository:';
+const projectsHeader = 'There will be links to my GitHub repositories here.';
+const projectsContent = 'Check my GitHub repository:';
 
 const Projects = () => {
     return (
@@ -16,9 +16,9 @@ const Projects = () => {
                 height: '100vh'
             }}
         >
-            <h1> {ProjectsHeader} </h1>
+            <h1> {projectsHeader} </h1>
             <br />
-            <p> {ProjectsContent} </p>
+            <p> {projectsContent} </p>
             <a href="https://github.com/keremcozin" target="_blank">https://github.com/keremcozin</a>
         </div>
     );
