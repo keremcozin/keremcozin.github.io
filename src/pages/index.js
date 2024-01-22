@@ -2,8 +2,8 @@
 
 import React from 'react';
 
-const HomeHeader = "Hi there!";
-const HomeContent = "This is my GitHub page to show some of the stuff I've made.";
+const homeHeader = "Hi there!";
+const homeContent = "This is my GitHub page to show some of the stuff I've made.";
 const Home = () => {
   return (
     <div
@@ -15,8 +15,8 @@ const Home = () => {
         height: '100vh'
       }}
     >
-        <h1> {HomeHeader} </h1>
-        <p> {HomeContent} </p>
+        <h1> {homeHeader} </h1>
+        <p> {homeContent} </p>
     </div>
   );
 };
