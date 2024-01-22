@@ -5,6 +5,7 @@ import { Container as LayoutContainer } from '../components/Layout/layoutElement
 
 const blogsHeader = "There will be some stuff about books, videos, online courses and et cetera.";
 const blogsContent = "Like this";
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 const Blogs = () => {
@@ -35,6 +36,8 @@ const Blogs = () => {
 =======
 const blogsHeader = "There will be some stuff about books, videos, online courses and et cetera.";
 const blogsContent = "Like this";
+=======
+>>>>>>> 25d454bba3c804e85c5c0ce0696f7fbbc3f22280
 const Blogs = () => {
     return (
         <div

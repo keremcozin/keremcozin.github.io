@@ -3,6 +3,7 @@
 import React from 'react';
 import { Container as LayoutContainer } from '../components/Layout/layoutElements';
 
+<<<<<<< HEAD
 const aboutHeader = "I'm a relatively new Software Engineer B.S. graduate from National Technical University, Kharkiv Polytechnic Institute. Practiced in object-oriented programming principles and full-stack development with a passion for modern programming techniques.";
 const aboutContentOne = "I recently discovered this web site for making fancy resumes, check it out if you wanna try something new;";
 const aboutContentTwo = "And some more content here...";
@@ -34,6 +35,8 @@ const About = () => {
     </LayoutContainer>
   );
 =======
+=======
+>>>>>>> 25d454bba3c804e85c5c0ce0696f7fbbc3f22280
 const aboutHeader = "This section is about introductions.";
 const aboutContent = "And so on...";
 const About = () => {
