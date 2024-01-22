@@ -10,8 +10,18 @@ const aboutContentTwo = "And some more content here...";
 const About = () => {
   return (
     <LayoutContainer>
-      <div style={{ textAlign: 'left', marginTop: '20px' }}>
-        <h2>{aboutHeader}</h2>
+       <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'left',
+          margin: '0 auto',
+          padding: '0 20px',
+          maxWidth: '600px'
+        }}
+      >
+        <h3>{aboutHeader}</h3>
         <p>{aboutContentOne}</p>
         <p>
           <a href="https://www.standardresume.co" target="_blank" rel="noopener noreferrer">
