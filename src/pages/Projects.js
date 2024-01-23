@@ -7,6 +7,7 @@ import { loremIpsumOne, loremIpsumTwo, loremIpsumThree, loremIpsumFour, loremIps
 const projectsHeader = "There will be links to my GitHub repositories here.";
 const projectsContentOne = "I'm currently working on this API for fun and curiosity. The original project doesn't belong to me; I'm merely playing with it.";
 const projectsContentTwo = "Check my GitHub repository:";
+const projectContentThree = "You can access this web site's source code from here:";
 
 const Projects = () => {
   return (
@@ -28,6 +29,8 @@ const Projects = () => {
         <a href="https://spacetraders.io/" target="_blank" rel="noopener noreferrer">Space Traders API</a>
         <p>{projectsContentTwo}</p>
         <a href="https://github.com/keremcozin" target="_blank" rel="noopener noreferrer">https://github.com/keremcozin</a>
+        <p>{projectContentThree}</p>
+        <a href="https://github.com/keremcozin/keremcozin.github.io/releases/tag/keremcozin.github.io-source" target="_blank" rel="noopener noreferrer">Source code of keremcozin.github.io</a>
         <div>
           <p>{loremIpsumOne}</p>
           <p>{loremIpsumTwo}</p>
