@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Container as LayoutContainer } from '../components/Layout/layoutElements';
-import Home, { loremIpsumOne, loremIpsumTwo, loremIpsumThree, loremIpsumFour, loremIpsumFive } from './Home';
+import { loremIpsumOne, loremIpsumTwo, loremIpsumThree, loremIpsumFour, loremIpsumFive } from './Home';
 
 const blogsHeader = "There will be some stuff about books, videos, online courses and et cetera.";
 const blogsContent = "Like this";

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Container as LayoutContainer } from '../components/Layout/layoutElements';
-import Home, { loremIpsumOne, loremIpsumTwo, loremIpsumThree, loremIpsumFour, loremIpsumFive } from './Home';
+import { loremIpsumOne, loremIpsumTwo, loremIpsumThree, loremIpsumFour, loremIpsumFive } from './Home';
 
 const aboutHeader = "I'm a relatively new Software Engineer B.S. graduate from National Technical University, Kharkiv Polytechnic Institute. Practiced in object-oriented programming principles and full-stack development with a passion for modern programming techniques.";
 const aboutContentOne = "I recently discovered this web site for making fancy resumes, check it out if you wanna try something new;";
