@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Container as LayoutContainer } from '../components/Layout/layoutElements';
+import Home, { loremIpsumOne, loremIpsumTwo, loremIpsumThree, loremIpsumFour, loremIpsumFive } from './Home';
 
 const projectsHeader = "There will be links to my GitHub repositories here.";
 const projectsContentOne = "I'm currently working on this API for fun and curiosity. The original project doesn't belong to me; I'm merely playing with it.";
@@ -27,6 +28,13 @@ const Projects = () => {
         <a href="https://spacetraders.io/" target="_blank" rel="noopener noreferrer">Space Traders API</a>
         <p>{projectsContentTwo}</p>
         <a href="https://github.com/keremcozin" target="_blank" rel="noopener noreferrer">https://github.com/keremcozin</a>
+        <div>
+          <p>{loremIpsumOne}</p>
+          <p>{loremIpsumTwo}</p>
+          <p>{loremIpsumThree}</p>
+          <p>{loremIpsumFour}</p>
+          <p>{loremIpsumFive}</p>
+        </div>
       </div>
     </LayoutContainer>
   );
